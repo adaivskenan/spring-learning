@@ -21,7 +21,3 @@ dependencies {
     testCompile("org.mockito:mockito-core:${mockitoVersion}")
     testCompile("org.springframework:spring-test:${springVersion}")
 }
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '1.11'
-}

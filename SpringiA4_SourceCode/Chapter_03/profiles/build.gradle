@@ -20,7 +20,3 @@ dependencies {
     testCompile("org.springframework:spring-test:${springVersion}")
     testCompile "com.github.stefanbirkner:system-rules:${systemRulesVersion}"
 }
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '1.11'
-}

@@ -9,7 +9,7 @@ dependencies {
     compile "org.hibernate:hibernate-validator:$hibernateValidatorVersion"
     compile "org.apache.commons:commons-lang3:$commonsLangVersion"
     compile "com.fasterxml.jackson.core:jackson-databind:$jacksonVersion"
-    
+
     compile "javax.servlet:jstl:$jstlVersion"
     providedCompile "javax.servlet:javax.servlet-api:$servletApiVersion"
     providedCompile "javax.servlet.jsp:jsp-api:$jspApiVersion"
@@ -27,10 +27,6 @@ repositories {
     maven { url 'http://maven.springframework.org/snapshot' }
     maven { url 'http://download.java.net/maven/2' }
     mavenCentral()
-}
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '2.1'
 }
 
 war {
